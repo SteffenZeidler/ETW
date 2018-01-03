@@ -2,6 +2,7 @@
 - LogMan
 - TraceRpt
 - EventVwr
+- WEvtUtil
 - WPR
 
 # SDK
