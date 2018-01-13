@@ -13,8 +13,8 @@
 
 # Other
 - PerfView
-- Microsoft Message Analyzer
-- Visual Studio Diagnostic Events Viewer
+- Microsoft Message Analyzer (MMA)
+- Visual Studio Diagnostic Events Viewer (VS)
 
 # PowerShell
 - EventTracingManagement
@@ -25,3 +25,14 @@
 - ETW2JSON
 - Tx (LINQ to Events)
 - KrabsETW
+
+# Features of event viewer tools
+| Tool     | GUI | Live | TraceLogging | EventSource |
+|----------|:---:|:----:|:------------:|:-----------:|
+| TraceRpt | [ ] | [x]  | [x]          | [ ]         |
+| TraceFmt | [ ] | [x]  | [x]          | [ ]         |
+| EventVwr | [x] | [ ]  | [ ]          | [ ]         |
+| WPA      | [x] | [ ]  | [x]          | [x]         |
+| PerfView | [x] | [ ]  | [x]          | [x]         |
+| MMA      | [x] | [x]  | [x]          | [ ]         |
+| VS       | [x] | [x]  | [x]          | [x]         |
