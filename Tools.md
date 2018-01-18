@@ -27,12 +27,21 @@
 - KrabsETW
 
 # Features of event viewer tools
-| Tool     | GUI | Live | TraceLogging | EventSource |
-|----------|:---:|:----:|:------------:|:-----------:|
-| TraceRpt | [ ] | [x]  | [x]          | [ ]         |
-| TraceFmt | [ ] | [x]  | [x]          | [ ]         |
-| EventVwr | [x] | [ ]  | [ ]          | [ ]         |
-| WPA      | [x] | [ ]  | [x]          | [x]         |
-| PerfView | [x] | [ ]  | [x]          | [x]         |
-| MMA      | [x] | [x]  | [x]          | [ ]         |
-| VS       | [x] | [x]  | [x]          | [x]         |
+| Tool     | GUI | File | Live | TraceLogging | EventSource |
+|----------|:---:|:----:|:----:|:------------:|:-----------:|
+| TraceRpt | [ ] | [x]  | [x]  | [x]          | [ ]         |
+| TraceFmt | [ ] | [x]  | [x]  | [x]          | [ ]         |
+| EventVwr | [x] | [x]  | [ ]  | [ ]          | [ ]         |
+| WPA      | [x] | [x]  | [ ]  | [x]          | [x]         |
+| PerfView | [x] | [x]  | [ ]  | [x]          | [x]         |
+| MMA      | [x] | [x]  | [x]  | [x]          | [ ]         |
+| VS       | [x] | [ ]  | [x]  | [x]          | [x]         |
+
+- File: can read etl files.
+- Live: real-time trace session support.
+- TraceLogging: can parse TraceLogging events.
+- EventSource: can parse .NET EventSource events with dynamic ETW manifest event.
+
+# What is missing?
+- A simple but powerful live event trace viewer that supports the .NET EventSource.
+- A simple installer that supports permanent logging of a .NET EventSource to a file.
