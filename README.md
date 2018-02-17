@@ -1,5 +1,5 @@
-# Tracing and performance analyze with ETW
+# Tracing and performance analyze with Event Tracing for Windows (ETW)
 This repository contains information and experience about ETW.
 
-[Tools](Tools.md): Overview about tools.
-[Managed](Managed): C# interop of native ETW API.
+- [Tools](Tools.md): Overview about tools.
+- [Managed](Managed): C# interop of native ETW API.
