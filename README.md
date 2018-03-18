@@ -1,4 +1,4 @@
-# Tracing and performance analyze with Event Tracing for Windows (ETW)
+# Tracing and performance analysis with Event Tracing for Windows (ETW)
 This repository contains information and experience about ETW.
 
 - [Tools](Tools.md): Overview about tools.
